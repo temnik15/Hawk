@@ -8,7 +8,7 @@ import ru.rosystem.hawk.network.NetworkState
 
 class AuthViewModel:ViewModel(){
     //Debug field
-    val myPassword = "c242b8689e77b73e"
+    val myPassword = "no pass"
     //
     var email = ""
     var password = ""
