@@ -1,0 +1,27 @@
+query WorkspacesQuery($ids: [ID], $limit: Int! = 30, $skip: Int! = 0){
+    workspaces(ids: $ids) {
+        id
+        name
+        image
+        projects {
+            ...ProjectsList
+        }
+    }
+}
+fragment ProjectsList on Project {
+    id
+    name
+    image
+    description
+    events(limit: $limit, skip: $skip) {
+        ...EventsList
+    }
+}
+
+fragment EventsList on Event {
+    id
+    payload {
+        title
+        timestamp
+    }
+}

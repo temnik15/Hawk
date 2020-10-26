@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Hawk</string>
+    <string name="app_snippet">Time for quality</string>
+    <string name="team">Made by CodeX</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <!-- String for navigation drawer -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- Other strings -->
+    <string name="title_home">All projects</string>
+    <string name="add_workspace_title">Add workspace</string>
+    <string name="btn_fast_auth">Fast auth</string>
+    <string name="btn_sign_up">SignUp</string>
+    <string name="btn_enter">Enter</string>
+    <string name="btn_recover">Recover password</string>
+    <string name="email_label">EMAIL ADDRESS</string>
+    <string name="password_label">PASSWORD</string>
+    <string name="now">now</string>
+
+</resources>

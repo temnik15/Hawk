@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- App color -->
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorText">#969eb3</color>
+    <color name="colorSelectText">#dbe7fe</color>
+    <color name="colorAuthForm">#2f3241</color>
+    <color name="colorEditForm">#272936</color>
+    <color name="colorEditPadding">#1f212d</color>
+    <color name="colorDivider">#424556</color>
+    <color name="colorBlueBtn">#4979e5</color>
+    <color name="colorDefaultBackground">#2F3341</color>
+    <color name="colorNotificationFormBlue">#4979E4</color>
+    <color name="colorNotificationFormRed">#D94848</color>
+    <color name="colorNotificationFormBlack">#1A1D26</color>
+    <color name="colorHeader">#1A1D26</color>
+    <color name="colorToolbar">#242732</color>
+    <color name="colorNow">#929AAD</color>
+    <color name="colorTextProject">#DBE6FF</color>
+    <color name="colorLaunchScreen">#1A1D26</color>
+
+
+
+</resources>

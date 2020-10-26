@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_effect"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingBottom="@dimen/default_padding"
+    tools:background="@color/colorDefaultBackground">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view_container_image"
+        android:layout_width="@dimen/default_icon_width"
+        android:layout_height="@dimen/default_icon_height"
+        android:layout_margin="@dimen/default_margin"
+        app:cardCornerRadius="@dimen/default_radius"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/view_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/view_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:maxLines="1"
+        android:textColor="@color/colorTextProject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@id/view_container_image"
+        app:layout_constraintTop_toTopOf="@id/view_container_image"
+        tools:text="Production vc.ru " />
+
+    <TextView
+        android:id="@+id/view_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:alpha="0.6"
+        android:textColor="@color/colorTextProject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/view_notification"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@id/view_container_image"
+        app:layout_constraintTop_toBottomOf="@id/view_title"
+        tools:text="Uncaught TypeError: Cannot read property  ‘activate’ or undefined" />
+
+    <TextView
+        android:id="@+id/view_notification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:background="@drawable/notification_form_blue"
+        android:paddingStart="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_extra_small"
+        android:paddingEnd="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_extra_small"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSize_extra_small"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view_description"
+        tools:text="1 320"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
