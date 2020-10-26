@@ -6,6 +6,7 @@
         <item name="colorPrimaryDark">#000000</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:navigationBarColor">#000000</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
     </style>
     <style name="AppTheme.Launcher">
         <item name="android:navigationBarColor">@color/colorToolbar</item>
