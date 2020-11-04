@@ -1,2 +1,2 @@
-- name: Android Emulator Runner
-  uses: ReactiveCircus/android-emulator-runner@v2.12.0
+name: Android Emulator Runner
+uses: ReactiveCircus/android-emulator-runner@v2.12.0
